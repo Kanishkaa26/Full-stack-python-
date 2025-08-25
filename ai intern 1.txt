@@ -1,0 +1,61 @@
+1. intger 
+# Declaration of integer in Python
+
+num1 = 10
+num2 = -25
+num3 = 0
+
+print(type(num1))  
+print(type(num2))  
+print(type(num3))  
+
+2. float 
+# Declaration of float in Python
+
+a = float(10)       # integer → float (10.0)
+b = float("25.6")   # string → float (25.6)
+c = float("7")      # string → float (7.0)
+
+print(a, b, c)
+
+3. complex 
+# Complex number declaration
+num1 = 3 + 5j
+num2 = -2 - 4j 
+
+print(num1, type(num1))  # (3+5j) <class 'complex'>
+print(num2, type(num2))  # (-2-4j) <class 'complex'>
+
+4. string (str)
+name1 = 'Python'
+name2 = "Programming"
+name3 = """This is a multi-line string"""
+
+print(name1, type(name1))  
+print(name2, type(name2))  
+print(name3, type(name3))  
+
+5. list 
+
+list 1 :([1, 2, 3])
+list 2 :(['apple', 'banana'])
+
+6.tuple
+tuple1 : (1,2,3,4)
+tuple2 : ('kani','adhi')
+
+
+7. set 
+set1 = {1,2,3,4}
+set2 = {'a','b','c'}
+
+8.dict
+dict = {'name': 'adhi', 'age': 18}.
+
+9.bool
+(true )
+(false)
+
+10. range 
+range = (1,2,3,4,5)
+range = 5
