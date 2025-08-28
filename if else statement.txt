@@ -1,0 +1,44 @@
+if else statement
+ day = str(input("Enter a day shortcut: "))
+
+if day == "m":
+    print("Monday")
+elif day == "t":
+    print("Tuesday")
+elif day == "w":
+    print("Wednesday")
+else:
+    print("Sunday")
+
+
+
+for loop
+
+n=int(input("Enter the number:"))
+for i in range(0,n,2):
+    print(i)
+
+while
+
+n=int(input())
+i=0
+while (i<1):
+    print(n)
+    i+=1
+
+
+1.
+
+ a=[1,2,3,4,5]
+id =input()
+if(a==id):
+    print("present")
+else:
+    print("absent")
+
+2.a=[11,12,13,14,15,16,17]
+id = int (input())
+if id in a:
+    print("present")
+else:
+      print("absent")
